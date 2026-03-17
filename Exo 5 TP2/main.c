@@ -39,9 +39,7 @@ int main()
     }
     printf("NULL\n");
 
-    free(E1);
-    free(E2);
-    free(E3);
+    free(head);
 
     return 0;
 }
